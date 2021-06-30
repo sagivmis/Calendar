@@ -14,8 +14,8 @@ ReactJS based application with full purpose to maintain and manage your schedule
 ### Tabs list (Click for Screenshots)
 
 - [Welcome](#welcome)
-    1. [welcome](#welcome-)
-    2. [welcome-dashboard](#welcome-dashboard)
+    1. [Welcome](#welcome)
+    2. [Welcome-Dashboard](#welcome-dashboard)
 - [Daily](#daily)
     1. [Daily-Calendar](#daily-calendar)
 - [Weekly](#weekly)
@@ -23,11 +23,11 @@ ReactJS based application with full purpose to maintain and manage your schedule
 - [Monthly](#monthly)
     1. [Monthly-Calendar](#monthly-calendar)
 - [Misc](#misc)
-    1. [login](#login)
-    2. [logout](#logout)
-    3. [user-panel](#user-panel)
-    4. [add-task](#add-task)
-    5. [day-modal](#day-modal)
+    1. [Login](#login)
+    2. [Logout](#logout)
+    3. [User-Panel](#user-panel)
+    4. [Add-Task](#add-task)
+    5. [Day-Modal](#day-modal)
 
 ## Screenshots
 
