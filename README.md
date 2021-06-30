@@ -31,7 +31,8 @@ ReactJS based application with full purpose to maintain and manage your schedule
 
 ## Screenshots
 ##### Welcome
-- ####### Welcome-
+
+- ####### Welcome
 ![welcome](./images/welcome.png)
 
 - ####### Welcome Dashboard
