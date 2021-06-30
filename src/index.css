@@ -1,0 +1,678 @@
+@import url("https://fonts.googleapis.com/css2?family=Benne&family=Rubik&display=swap");
+
+.daydate-container {
+  position: relative;
+  left: 166px;
+  bottom: 10px;
+}
+.footer {
+  position: relative;
+  left: 46%;
+  margin-top: 5%;
+}
+.calendar-choose {
+  position: relative;
+  margin-top: 5%;
+  left: 43%;
+}
+.calendar-container {
+  position: relative;
+  left: 29%;
+  max-width: 100%;
+  top: 70px;
+}
+.lowerHalf {
+  background-repeat: no-repeat;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  height: 50%;
+}
+
+.upperHalf {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  height: 50%;
+}
+.day-checkbox {
+  left: -50%;
+}
+.daily-calendar-container {
+  position: relative;
+  left: -18%;
+  top: -23px;
+  background: #fff;
+  max-width: 1500px;
+  min-width: 1500px;
+  min-height: 530px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 10px;
+}
+.monthly-calendar-container {
+  position: relative;
+  left: -18%;
+  top: -23px;
+  max-width: 1500px;
+  min-width: 1500px;
+  min-height: 530px;
+  padding: 10px 20px;
+  margin: 5px;
+}
+.calendar-day {
+  background: #f4f4f4;
+  margin: 5px;
+  padding: 10px 20px;
+  /* cursor: pointer; */
+  min-width: 253.781px;
+  max-width: 253.781px;
+  min-height: 353.781px;
+  max-height: 353.781px;
+  /* border: #f3bb99 solid 1.3px; */
+  border-radius: 15px;
+  /* box-shadow: rgba(243, 187, 153, 0.7) 0px 3px 8px; */
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.calendar-task {
+  background: #f4f4f4;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  min-height: 108.781px;
+  max-height: 108.781px;
+  border: #f1868f solid 1.3px;
+}
+.calendar-task h3 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 200;
+  justify-content: space-between;
+}
+
+.align {
+  align-items: center;
+  text-align: center;
+}
+
+.calendar-task h1 {
+  font-family: "Rubik", sans-serif;
+  color: #f1868f;
+  font-weight: 500;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+.calendar-task-par {
+  font-family: "Rubik", sans-serif;
+  color: #f1868f;
+  font-weight: 100;
+  justify-content: space-between;
+}
+.calendar-task-month-daydate {
+  font-family: "Rubik", sans-serif;
+  justify-content: space-between;
+  font-weight: 100;
+}
+
+.calendar-day h3 {
+  font-family: "Rubik", sans-serif;
+  color: #f3bb99;
+  font-weight: 200;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+.light-orange {
+  color: #f3bb99;
+}
+.light-red {
+  color: #f1868f;
+}
+.light-green {
+  color: #02af48;
+}
+.light-green-border {
+  border: #02af48 solid 1.3px;
+}
+.calendar-day h1 {
+  font-family: "Rubik", sans-serif;
+  color: #f3bb99;
+  font-weight: 500;
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+.grid {
+  flex-grow: 1;
+  position: relative;
+  right: 27%;
+}
+.relative {
+  position: relative;
+}
+
+.bold {
+  font-weight: 700;
+}
+.thin {
+  font-weight: 100;
+}
+.btn {
+  display: inline-block;
+  color: #fff;
+  border: none;
+  padding: 7.7px 15.4px;
+  margin: 3.5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  filter: brightness(1);
+}
+
+.btn:hover {
+  filter: brightness(1.08);
+  transition: 0.25s;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+.control-panel-day {
+  position: relative;
+  top: 190px;
+  left: -15px;
+}
+.control-panel-day-right {
+  position: relative;
+  top: 154px;
+  left: 123px;
+}
+.absolute {
+  position: relative;
+  top: 37px;
+  right: 243px;
+}
+
+.modal {
+  max-height: 470px;
+}
+
+.modall {
+  position: relative;
+  height: auto;
+  top: auto;
+  left: auto;
+  bottom: auto;
+  right: auto;
+}
+.greeting {
+  position: absolute;
+  left: 3%;
+  top: 3%;
+  color: #282c34;
+}
+.clock {
+  left: 83.5%;
+  top: 30px;
+}
+
+.time-and-status {
+  position: relative;
+  left: 2%;
+  top: 15px;
+  align-items: left;
+  text-align: left;
+}
+.small-note {
+  font-size: 10px;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+.question-modal {
+}
+.delete {
+  color: #e62b3a;
+}
+.delete-task {
+  position: absolute;
+  margin-top: -41px;
+  left: 92%;
+}
+.progress-bars {
+  position: relative;
+  top: 190px;
+}
+.done-label {
+  position: relative;
+  left: -3px;
+}
+.not-done-label {
+  position: relative;
+  left: -3px;
+  margin-top: -18px;
+}
+
+.reload-icon {
+  position: relative;
+  top: 123px;
+  left: 85px;
+}
+.stats {
+  position: absolute;
+  left: 38.3%;
+  top: -7%;
+}
+.bigger-stats {
+  left: 35.5%;
+}
+.back-button {
+  position: absolute;
+  left: -44%;
+  top: -430px;
+}
+
+.back-button-day {
+  position: absolute;
+  left: 0%;
+  top: -50px;
+}
+
+.day-delete {
+  left: 97%;
+}
+.daily-control-panel {
+  position: absolute;
+  left: -8.3%;
+  top: 0px;
+}
+.choose-label {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.week-grid {
+  padding: 5px;
+  background: #fffcf9;
+  /* min-width: 70%; */
+  min-width: 358.35px;
+  min-height: 510px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  border-radius: 10px;
+}
+
+.monthly-back {
+  position: absolute;
+  top: -45px;
+  left: 0px;
+}
+
+.total-tasks-number {
+  margin-top: -13px;
+  position: relative;
+  left: 26px;
+}
+.total-done-tasks-number {
+  margin-top: -13px;
+  position: relative;
+  left: 26px;
+}
+.total-tasks-stats {
+  position: relative;
+  left: 130px;
+}
+.total-done-tasks {
+  position: relative;
+  left: 130px;
+}
+
+.month-weekly-progress {
+  position: relative;
+  right: 36.7%;
+  top: 10px;
+  max-width: 98.5%;
+}
+
+.done-percent-number {
+  position: absolute;
+  top: 0px;
+  left: 220px;
+}
+
+.done-percent-label {
+  position: relative;
+  right: 50px;
+}
+.expand-month-button {
+  position: relative;
+  top: -5px;
+}
+.selector-2 {
+  position: relative;
+  top: 420px;
+  left: 29.7%;
+  max-width: 700px;
+}
+.selector {
+  position: relative;
+  max-width: 95%;
+  left: 4.7%;
+}
+.choose-day-label {
+  position: absolute;
+  top: 62px;
+  left: 25px;
+}
+.choose-week {
+  position: relative;
+  top: -430px;
+  max-width: 60%;
+  left: 11.8%;
+  /* left: 0%; */
+  /* bottom: 40%; */
+  /* left: auto;
+  top: auto; */
+  /* margin-top: 100px; */
+}
+.daily-choose-week {
+  position: relative;
+  top: -428px;
+}
+.choose-week-label {
+  position: absolute;
+  top: 0px;
+  left: 50px;
+}
+.monthly-week-container {
+  position: relative;
+  left: -28%;
+  min-width: 300px;
+  max-width: 300px;
+  max-height: 400px;
+  min-height: 400px;
+  background-color: #eee;
+}
+.scroll {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.under-33 {
+  border: #f1868f solid 5px;
+}
+.under-33-medium-warning {
+  border: #f3bb99 solid 5px;
+}
+.note-not {
+  position: absolute;
+  left: 190px;
+  top: 10px;
+  transition: all 1s;
+}
+
+.timer {
+  position: absolute;
+  top: 10px;
+  /* left: 600px; */
+  left: 86%;
+}
+
+.pass {
+  position: absolute;
+  left: 40%;
+  top: 320px;
+  background-color: rgba(255, 237, 159, 0.9);
+  border-radius: 15px;
+  padding-bottom: -10px;
+  padding: 5px;
+  max-height: 167px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.pass-input {
+  height: 160px;
+  width: 350px;
+  position: relative;
+  top: -13px;
+  left: -10px;
+  text-align: center;
+  align-content: center;
+  align-tracks: center;
+  margin: 12px;
+  padding: 10px;
+  border-width: 1px;
+}
+.login-btn {
+  position: relative;
+  height: 125px;
+  top: -15px;
+  left: -10px;
+}
+
+.logout-button-home {
+  position: absolute;
+  /* right: -10px; */
+  left: 45.7%;
+  top: -470px;
+}
+.logout-button-day {
+  position: absolute;
+
+  left: 45.7%;
+  top: -858px;
+}
+.logout-button-week {
+  position: absolute;
+  left: 45.7%;
+  top: -721px;
+}
+.logout-button-month {
+  position: absolute;
+  left: 45.7%;
+  top: -988px;
+}
+.pass-label {
+  position: absolute;
+  top: -23px;
+  left: 15px;
+  color: #fff;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-start-end-radius: 55px;
+  border-start-start-radius: 55px;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
+  background-color: rgba(238, 213, 132, 0.75);
+  border-top: white 1px solid;
+}
+.change-name-btn {
+}
+.menu-container {
+  position: absolute;
+  left: -455px;
+  top: -70px;
+}
+.change-name {
+  position: relative;
+  left: 45px;
+  margin-top: -20px;
+}
+.user-menu {
+  position: relative;
+  left: -415px;
+  top: -300px;
+}
+#accordion-2 {
+  max-width: 300px;
+  left: -385px;
+}
+#accordion-3 {
+  max-width: 300px;
+}
+
+.menu-logout-btn {
+  position: absolute;
+  top: 38px;
+  left: 75px;
+}
+
+.notification-box {
+  position: absolute;
+  left: 45%;
+  top: 30px;
+  border: #fff 0.1px solid;
+  /* min-width: 700px;
+  max-width: 700px; */
+  min-width: 36.5%;
+  max-width: 36.5%;
+  max-height: 196.5px;
+  min-height: 50px;
+  border-radius: 11px;
+  margin-bottom: 50px;
+}
+
+.notification-box h3 {
+  position: relative;
+  left: 30px;
+  padding: 5px 10px;
+  max-width: 147px;
+  background-color: white;
+  border-end-end-radius: 10px;
+  border-end-start-radius: 10px;
+  z-index: 1000;
+}
+.notifications-box-par {
+  color: rgba(255, 255, 255, 0.95);
+  position: relative;
+  left: 10px;
+  max-width: 680px;
+}
+.notification-accordion {
+  position: relative;
+  top: -7px;
+}
+.white {
+  color: white;
+}
+.notification-cmd {
+  border-radius: 11px;
+  background-color: black;
+  min-height: 135px;
+  max-height: 135px;
+  opacity: 0.6;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+  top: -22px;
+  z-index: 1000;
+}
+.notification {
+  position: relative;
+  /* line-height: 10px; */
+  max-height: 27px;
+}
+.not-id {
+  position: relative;
+  display: inline-flex;
+  margin-left: 40px;
+  /* top: 0px; */
+}
+.not-content {
+  position: absolute;
+  display: inline-flex;
+  margin-left: 10px;
+}
+.not-date {
+  position: absolute;
+  display: inline-flex;
+  margin-left: 205px;
+  top: 0px;
+}
+.not-time {
+  position: absolute;
+  display: inline-flex;
+  margin-left: 300px;
+  top: 0px;
+}
+.clipboard-icon-not {
+  position: absolute;
+  display: inline-flex;
+  left: -5px;
+  top: -3px;
+  transform: scale(0.85);
+}
+.saved-label {
+  position: relative;
+  display: inline-flex;
+  left: 340px;
+  top: -3px;
+  opacity: 0.6;
+  max-height: 27px;
+}
+
+.name-label {
+  position: absolute;
+  top: 40px;
+  margin-left: 110px;
+  text-shadow: 10px 10px 25px rgb(81, 67, 21), -10px 10px 25px rgb(81, 67, 21),
+    -10px -10px 25px rgb(81, 67, 21), 10px -10px 25px rgb(81, 67, 21);
+}
+.name-id {
+  position: absolute;
+  top: 40px;
+  margin-left: 42px;
+  text-shadow: 10px 10px 25px rgb(81, 67, 21), -10px 10px 25px rgb(81, 67, 21),
+    -10px -10px 25px rgb(81, 67, 21), 10px -10px 25px rgb(81, 67, 21);
+}
+.name-date {
+  position: absolute;
+  top: 40px;
+  margin-left: 283px;
+  text-shadow: 10px 10px 25px rgb(81, 67, 21), -10px 10px 25px rgb(81, 67, 21),
+    -10px -10px 25px rgb(81, 67, 21), 10px -10px 25px rgb(81, 67, 21);
+}
+.name-time {
+  position: absolute;
+  top: 40px;
+  margin-left: 360px;
+  text-shadow: 10px 10px 25px rgb(81, 67, 21), -10px 10px 25px rgb(81, 67, 21),
+    -10px -10px 25px rgb(81, 67, 21), 10px -10px 25px rgb(81, 67, 21);
+}
+
+.delete-icon-not {
+  position: absolute;
+  right: 0px;
+  top: -3px;
+  transform: scale(0.6);
+}
+
+.day-tasks {
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 36px;
+  left: 2%;
+  max-width: 220px;
+  max-height: 220px;
+}
