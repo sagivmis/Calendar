@@ -30,9 +30,10 @@ ReactJS based application with full purpose to maintain and manage your schedule
     5. [day-modal](#day-modal)
 
 ## Screenshots
+
 ##### Welcome
 
-- ####### Welcome
+- ###### Welcome
 ![welcome](./images/welcome.png)
 
 - ####### Welcome Dashboard
